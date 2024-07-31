@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Marico</title>
+      <link
+         href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+         rel="stylesheet"
+      />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="../dist/styles.css" />
+   </head>
+   <body class="text-white">
+      <!-- Header -->
+      <header class="text-gray-400 p-4">
+         <nav class="container mx-auto flex justify-between items-center">
+            <a href="#"
+               ><img src="../assets/imgs/logo.svg" alt="logo" class="w-28"
+            /></a>
+            <ul class="hidden md:flex gap-4 text-lg">
+               <li>
+                  <select
+                     class="bg-black hover:text-blue-500 transition duration-300"
+                  >
+                     <option>Use Cases</option>
+                     <option value="1">case one</option>
+                     <option value="2">case two</option>
+                  </select>
+               </li>
+               <li>
+                  <a
+                     href="#"
+                     class="hover:text-blue-500 transition duration-300"
+                     >About</a
+                  >
+               </li>
+               <li>
+                  <a
+                     href="#"
+                     class="hover:text-blue-500 transition duration-300"
+                     >Pricing</a
+                  >
+               </li>
+               <li>
+                  <a
+                     href="#"
+                     class="hover:text-blue-500 transition duration-300"
+                     >Blog</a
+                  >
+               </li>
+            </ul>
+            <div class="hidden md:flex gap-6">
+               <button
+                  class="text-lg text-gray-400 hover:text-blue-500 transition duration-300"
+               >
+                  Login
+               </button>
+               <button
+                  class="text-lg bg-blue-700 px-4 py-2 rounded-lg text-white"
+               >
+                  Sign up
+               </button>
+            </div>
+            <button id="menu-btn" class="md:hidden text-white">Menu</button>
+         </nav>
+         <ul id="menu" class="hidden md:hidden flex-col mt-4 space-y-2 text-lg">
+            <li>
+               <select class="hover:text-blue-500 transition duration-300">
+                  <option>Use Cases</option>
+                  <option value="1">case one</option>
+                  <option value="2">case two</option>
+               </select>
+            </li>
+            <li>
+               <a href="#" class="hover:text-blue-500 transition duration-300"
+                  >About</a
+               >
+            </li>
+            <li>
+               <a href="#" class="hover:text-blue-500 transition duration-300"
+                  >Pricing</a
+               >
+            </li>
+            <li>
+               <a href="#" class="hover:text-blue-500 transition duration-300"
+                  >Blog</a
+               >
+            </li>
+            <li>
+               <button
+                  class="text-lg text-gray-400 hover:text-blue-500 transition duration-300"
+               >
+                  Login
+               </button>
+            </li>
+            <li>
+               <button
+                  class="text-lg bg-blue-700 px-4 py-2 rounded-lg text-white"
+               >
+                  Sign up
+               </button>
+            </li>
+         </ul>
+      </header>
+      <!-- Header -->
+
+      <!-- Hero section -->
+      <section>
+         <div class="container mx-auto my-16 px-4 text-center">
+            <div class="flex flex-col gap-6">
+               <div>
+                  <h1
+                     class="text-6xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white"
+                  >
+                     Own your audience.
+                  </h1>
+                  <span
+                     class="text-6xl md:text-7xl lg:text-8xl font-bold text-rose-400"
+                     >So you don't lose them</span
+                  >
+               </div>
+               <div class="flex flex-col mt-[136px]">
+                  <div class="mb-10 flex justify-center">
+                     <h3
+                        class="w-[900px] text-2xl md:text-4xl lg:text-5xl text-white"
+                     >
+                        Turn your audience into email and text message
+                        subscribers.
+                     </h3>
+                  </div>
+                  <div
+                     class="flex flex-col md:flex-row gap-6 justify-center text-gray-400"
+                  >
+                     <button
+                        class="text-lg px-8 py-4 rounded-lg border border-gray-400 hover:bg-blue-600 hover:text-white transition duration-300"
+                     >
+                        Get Started Now
+                     </button>
+                     <button
+                        class="text-lg px-8 py-4 rounded-lg border border-gray-400 hover:bg-blue-600 hover:text-white transition duration-300"
+                     >
+                        View A Demo
+                     </button>
+                  </div>
+                  <div
+                     class="text-gray-400 text-lg mt-5 flex justify-center gap-2 items-center"
+                  >
+                     <img src="../assets/imgs/dot.svg" alt="dot" />
+                     <span class="text-white font-bold text-xl">1000+</span>
+                     <p>creators have already started</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Hero section -->
+
+      <!-- Features section -->
+      <section>
+         <div class="container mx-auto text-center px-4">
+            <h1
+               class="text-3xl md:text-5xl lg:text-6xl font-semibold mb-16 mt-[188px]"
+            >
+               Why Creators Love Marico
+            </h1>
+            <div class="flex flex-col md:flex-row justify-center gap-10">
+               <div>
+                  <div class="flex justify-center mb-2 gap-2">
+                     <img
+                        src="../assets/imgs/smile_emoji.svg"
+                        alt="smile emoji"
+                     />
+                     <p class="text-2xl">Reduced Anxiety</p>
+                  </div>
+                  <p class="text-lg text-[#707070]">
+                     Never worry about losing your audience.
+                  </p>
+               </div>
+               <div>
+                  <div class="flex justify-center mb-2 gap-2">
+                     <img
+                        src="../assets/imgs/happy_emoji.svg"
+                        alt="happy emoji"
+                     />
+                     <p class="text-2xl">Lower Workload</p>
+                  </div>
+                  <p class="text-lg text-[#707070]">
+                     Just share one link. We'll handle the rest.
+                  </p>
+               </div>
+               <div>
+                  <div class="flex justify-center mb-2 gap-2">
+                     <img
+                        src="../assets/imgs/party_emoji.svg"
+                        alt="party emoji"
+                     />
+                     <p class="text-2xl">More Time</p>
+                  </div>
+                  <p class="text-lg text-[#707070]">
+                     Spend less time on marketing tools
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Features section -->
+
+      <!-- Main section -->
+      <section>
+         <div class="container mx-auto px-4">
+            <div
+               class="flex text-center flex-col md:flex-row justify-center my-16 md:my-32"
+            >
+               <div
+                  class="items-center text-center md:text-left md:w-1/2 md:pr-8"
+               >
+                  <span class="text-[#326CF9] text-center block text-xl"
+                     >STEP 1</span
+                  >
+                  <h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold">
+                     Connect Your Content
+                  </h1>
+                  <p class="text-lg mt-4 text-center text-[#707070]">
+                     Bring all of your content together and get a Homepage that
+                     automatically updates whenever you create anywhere online.
+                  </p>
+                  <button
+                     class="mt-6 text-lg px-8 py-4 rounded-lg border border-gray-400 hover:bg-blue-600 hover:text-white transition duration-300"
+                  >
+                     View Available Sources
+                  </button>
+               </div>
+            </div>
+            <div
+               class="flex flex-col md:flex-row justify-between my-16 md:my-32"
+            >
+               <div class="text-white md:w-1/2 md:pr-8">
+                  <p class="text-2xl">Your Homepage</p>
+                  <div class="mt-8">
+                     <h2 class="text-3xl md:text-5xl lg:text-6xl font-semibold">
+                        Your Content. All in
+                        <span class="text-blue-500">One Spot</span>
+                     </h2>
+                  </div>
+                  <div class="flex gap-3 items-center mt-6">
+                     <img src="../assets/imgs/bullet.svg" alt="bullet" />
+                     <p>
+                        Bring all of your content together into one homepage.
+                     </p>
+                  </div>
+                  <div class="flex gap-3 items-center mt-2 mb-16">
+                     <img src="../assets/imgs/bullet2.svg" alt="bullet" />
+                     <p>Your page automatically updates whenever you create.</p>
+                  </div>
+                  <div class="flex flex-col md:flex-row gap-6 text-gray-400">
+                     <button
+                        class="text-lg px-8 py-4 rounded-lg border border-gray-400 hover:bg-blue-600 hover:text-white transition duration-300"
+                     >
+                        Get Started Now
+                     </button>
+                     <button
+                        class="text-lg px-8 py-4 rounded-lg border border-gray-400 hover:bg-blue-600 hover:text-white transition duration-300"
+                     >
+                        View A Demo
+                     </button>
+                  </div>
+               </div>
+               <div
+                  class="md:w-1/2 flex justify-center md:justify-end mt-10 md:mt-0"
+               >
+                  <img
+                     src="../assets/imgs/Screen.png"
+                     alt="Screen"
+                     class="w-full md:w-auto"
+                  />
+               </div>
+            </div>
+            <div class="flex justify-center my-[162px]">
+               <div class="text-center w-[929px]">
+                  <span class="text-[#3D82F2] text-[25px]">STEP 2</span>
+                  <h1 class="text-white text-[75px] font-semibold">
+                     Share Your Homepage
+                  </h1>
+                  <p class="text-[#707070] text-[30px]">
+                     Share your Wavium homepage link with your followers, and
+                     we'll handle the rest.
+                  </p>
+               </div>
+            </div>
+            <div class="flex justify-between gap-5 flex-grow">
+               <div class="bg-[#0D0D0D] pl-11 pt-8">
+                  <div>
+                     <span class="text-[#0FC65C] text-[30px]">One Link</span>
+                     <h2
+                        class="mt-5 w-[623px] text-[80px] font-semibold text-[#919191]"
+                     >
+                        ALL You Create.
+                        <span class="text-white">One Link</span>
+                     </h2>
+                  </div>
+                  <div>
+                     <img
+                        class="w-[854px]"
+                        src="../assets/imgs/mobile_body.svg"
+                        alt="mobile body"
+                     />
+                  </div>
+               </div>
+               <div class="bg-[#0D0D0D] pl-11 pt-8 w-[854px]">
+                  <span class="text-[#0FC65C] text-[30px]"
+                     >Collect Subscribers</span
+                  >
+                  <h2
+                     class="mt-[96px] w-[415px] text-[80px] font-semibold text-[#919191]"
+                  >
+                     Emails. Phone #s.
+                     <span class="text-white">All Yours.</span>
+                  </h2>
+               </div>
+            </div>
+            <div
+               class="flex text-center flex-col md:flex-row justify-center my-16 md:my-32"
+            >
+               <div
+                  class="items-center text-center md:text-left md:w-1/2 md:pr-8"
+               >
+                  <span class="text-[#326CF9] text-center block text-xl"
+                     >STEP 3</span
+                  >
+                  <h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold">
+                     Send Emails & Text Messages
+                  </h1>
+                  <p class="text-lg mt-4 text-center text-[#707070]">
+                     No more going through a social platform. Reach and engage
+                     your audience directly over email and text massage.
+                  </p>
+               </div>
+            </div>
+            <div
+               class="flex flex-col md:flex-row justify-between my-16 md:my-32"
+            >
+               <div class="text-white md:w-1/2 md:pl-8">
+                  <p class="text-2xl">Your Homepage</p>
+                  <div class="mt-8">
+                     <h2 class="text-3xl md:text-5xl lg:text-6xl font-semibold">
+                        Your Content. All in
+                        <span class="text-blue-500">One Spot</span>
+                     </h2>
+                  </div>
+                  <div class="flex gap-3 items-center mt-6">
+                     <img src="../assets/imgs/bullet.svg" alt="bullet" />
+                     <p>
+                        Bring all of your content together into one homepage.
+                     </p>
+                  </div>
+                  <div class="flex gap-3 items-center mt-2 mb-16">
+                     <img src="../assets/imgs/bullet2.svg" alt="bullet" />
+                     <p>Your page automatically updates whenever you create.</p>
+                  </div>
+                  <div class="flex flex-col md:flex-row gap-6 text-gray-400">
+                     <button
+                        class="text-lg px-8 py-4 rounded-lg border border-gray-400 hover:bg-blue-600 hover:text-white transition duration-300"
+                     >
+                        Get Started Now
+                     </button>
+                     <button
+                        class="text-lg px-8 py-4 rounded-lg border border-gray-400 hover:bg-blue-600 hover:text-white transition duration-300"
+                     >
+                        View A Demo
+                     </button>
+                  </div>
+               </div>
+               <div
+                  class="md:w-1/2 flex justify-center md:justify-start mt-10 md:mt-0"
+               >
+                  <img
+                     src="../assets/imgs/Screen2.png"
+                     alt="Screen"
+                     class="w-full md:w-auto"
+                  />
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Main section -->
+
+      <!-- clients section -->
+      <section>
+         <div class="container mx-auto">
+            <div class="">
+               <h1
+                  class="text-white text-[75px] text-center font-semibold my-[59px]"
+               >
+                  Experts Agree
+               </h1>
+               <img src="../assets/imgs/Image.png" alt="clients" />
+            </div>
+         </div>
+         <div class="my-[188px] w-full">
+            <img
+               src="../assets/imgs/Audience.png"
+               class="w-full"
+               alt="audience"
+            />
+         </div>
+      </section>
+      <!-- clients section -->
+
+      <!-- setup section -->
+      <section>
+         <div class="container mx-auto">
+            <div class="flex justify-center items-center flex-col mb-[183px]">
+               <div><img src="../assets/imgs/logo1.svg" alt="logo" /></div>
+               <h2 class="text-white text-[100px] font-semibold">
+                  Get Started Now
+               </h2>
+               <p class="text-white text-[43px] font-normal">
+                  Setup is easy and takes under 5 minutes.
+               </p>
+               <div>
+                  <button
+                     class="ml-9 btn btn-primary text-[#707070] text-[20px] px-[70px] py-4 rounded-lg border border-[#707070] hover:bg-[#326CF9] hover:text-white ease-in-out duration-300"
+                  >
+                     Get Started Now
+                  </button>
+                  <div
+                     class="text-[#707070] text-[20px] mt-5 flex gap-2 items-center"
+                  >
+                     <img src="../assets/imgs/dot.svg" alt="dot" />
+                     <span class="text-white font-bold text-[25px]">
+                        1000+</span
+                     >
+                     <p>creators have already started</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- setup section -->
+
+      <!-- footer -->
+      <footer>
+         <div
+            class="container mx-auto flex justify-between items-center mb-[96px]"
+         >
+            <div>
+               <a href="#"><img src="../assets/imgs/logo.svg" alt="" /></a>
+               <p class="text-[#707070] text-[27px]">info@marico.com</p>
+            </div>
+            <ul class="flex gap-4 text-[21px] text-[#707070]">
+               <li>
+                  <a
+                     href="#"
+                     class="hover:text-[#3C82F4] ease-in-out duration-300"
+                     >About</a
+                  >
+               </li>
+               <li>
+                  <a
+                     href="#"
+                     class="hover:text-[#3C82F4] ease-in-out duration-300"
+                     >Pricing</a
+                  >
+               </li>
+               <li>
+                  <a
+                     href="#"
+                     class="hover:text-[#3C82F4] ease-in-out duration-300"
+                     >Blog</a
+                  >
+               </li>
+               <li>
+                  <a
+                     href="#"
+                     class="hover:text-[#3C82F4] ease-in-out duration-300"
+                     >Sign in</a
+                  >
+               </li>
+            </ul>
+         </div>
+      </footer>
+      <!-- footer -->
+   </body>
+</html>
